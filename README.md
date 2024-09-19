@@ -85,7 +85,7 @@ Set the CHOSEN_RULESET variable to select which ruleset to use.
 2: Reversed animation
 3: Boomerang effect (forward then backward)
 
-###Output
+### Output
 
 The script generates a GIF file with the naming convention:
 
@@ -96,6 +96,28 @@ autoglypha*{CHOSEN_RULESET}\_mode{ANIMATION_MODE}\_linger{INITIAL_LINGER_FRAMES}
 If you encounter font-related issues, ensure the specified font file exists or fall back to a system font.
 For any import errors, make sure all required libraries are installed.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Email: ssc@clinamenic.com
+
 ```
+        _____________
+       /  _______   /          ___                                         ___       ________
+      /  / ___  /__/ _        /  /                               _        /  /      /  _____/
+     /  / /  / ___  / |      /  / ________                 _____/_|______/  /______/__/____
+    /  / /  / /  / /  |     /  / /  __   / _____________  /  ___________/  /______________/
+   /  / /  / /  / /   |    /  / /  / /  / /  __   __   / /  / /   |  __/__/______/  /____
+  /  / /  / /  / /  / |   /  / /__/ /__/ /  / /  / /  / /  / /  / | /______   __/  /____/
+ /  /_/  /_/__/_/  /|_|__/  /____  _____/  /_/__/_/  /_/  /_/  /|_|__/  /_/__/_/  /____
+/____/  /______/  /_____/  /_   / /  __/  /______/  /_   __/  /_____/  /______________/
+    /  /_/  /_/__/_ | |/  / /  / /  / /  / /  / /__/ /  /_/__/__| |/  /_/__/_________
+   /____/  /______/ | /  / /  / /  / /  / /  /      /___________| /  /______________/
+       /  / /__/    |   / /__/ /__/ /  / /__/           /__/   _|___/_/  /_________
+      /__/          |  /           /  /                       /___________________/
+                    |_/           /__/                          |_/
 
 ```
