@@ -1,0 +1,41 @@
+# #FFFFF0 "Ivory"
+
+# #FAF9F6 "Off White"
+# #E5E4E2 "Platinum"
+# #B2BEB5 "Ash Gray"
+# #899499 "Pewter"
+# #708090 "Slate Gray"
+# #36454F "Charcoal"
+
+# #7FFFD4 "Aquarmarine"
+# #7FCCB6 "Dark Aquarmarine"
+
+#4EFA9F "OpenCivics Green"
+#3D21E8 "OpenCivics Blue"
+#4E36E4 "Light OpenCivics Blue"
+
+
+
+
+# Clinamenic Logo
+
+# States and corresponding glyphs and colors
+STATES = {
+    1: {'glyph': '1', 'color': '#74a7b2'}, # "Very Dark Aquarmarine"
+    2: {'glyph': '2', 'color': '#7FCCB6'}, # "Dark Aquarmarine"
+    3: {'glyph': '3', 'color': '#6feeb7'}, # "Medium Aquarmarine"
+    4: {'glyph': '4', 'color': '#7FFFD4'}, # "Aquarmarine"
+    5: {'glyph': '5', 'color': '#FFFFF0'}, # "Ivory"
+}
+
+
+# OpenCivics Logo
+
+# States and corresponding glyphs and colors,
+STATES = {
+    1: {'glyph': '1', 'color': '#FFFFFF'}, # "White"
+    2: {'glyph': '2', 'color': '#FAF9F6'}, # "Off White"
+    3: {'glyph': '3', 'color': '#4E36E4'}, # "Light OpenCivics Blue"
+    4: {'glyph': '4', 'color': '#3D21E8'}, # "OpenCivics Blue"
+    5: {'glyph': '5', 'color': '#3D21E8'}, # "OpenCivics Blue"
+}
