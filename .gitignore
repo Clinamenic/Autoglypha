@@ -26,3 +26,7 @@ Thumbs.db
 # Output files from your script
 output/*
 !output/.gitkeep
+
+# Initial ASCII images used to seed the grid
+grid_init/*
+!grid_init/.gitkeep

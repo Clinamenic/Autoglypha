@@ -31,6 +31,7 @@ source venv/bin/activate # On Windows, use venv\Scripts\activate
 1. Place your initial grid configuration in a text file (e.g., `opencivics_logo.txt`) in the `static/grid_init/` directory. Use numbers 1-5 to represent different states.
 
 2. Customize the script parameters in `autoglypha.py`:
+
 - Adjust grid dimensions (`GRID_WIDTH`, `GRID_HEIGHT`)
 - Modify cell size (`CELL_WIDTH`, `CELL_HEIGHT`)
 - Change font size (`FONT_SIZE`)
@@ -69,11 +70,12 @@ STATES = {
 Choose from existing rulesets or create your own in the RULESETS dictionary:
 
 ```
+
 RULESETS = {
-    'default': lambda cell, neighbors: ...,
-    'inverse': lambda cell, neighbors: ...,
-    # Add your custom rulesets here
+'default': lambda cell, neighbors: ...,
+'inverse': lambda cell, neighbors: ..., # Add your custom rulesets here
 }
+
 ```
 
 Set the CHOSEN_RULESET variable to select which ruleset to use.
@@ -98,3 +100,4 @@ For any import errors, make sure all required libraries are installed.
 ### License
 
 [Specify your license here]
+```
