@@ -64,18 +64,17 @@ STATES = {
  2: {'glyph': '2', 'color': '#FAF9F6'},
  # Add more states as needed
 }
+```
 
 ### Rulesets
 
 Choose from existing rulesets or create your own in the RULESETS dictionary:
 
-```
-
+```python
 RULESETS = {
 'default': lambda cell, neighbors: ...,
 'inverse': lambda cell, neighbors: ..., # Add your custom rulesets here
 }
-
 ```
 
 Set the CHOSEN_RULESET variable to select which ruleset to use.
@@ -90,14 +89,13 @@ Set the CHOSEN_RULESET variable to select which ruleset to use.
 
 The script generates a GIF file with the naming convention:
 
-autoglypha_{CHOSEN_RULESET}_mode{ANIMATION_MODE}_linger{INITIAL_LINGER_FRAMES}_{FINAL_LINGER_FRAMES}.gif
+autoglypha*{CHOSEN_RULESET}\_mode{ANIMATION_MODE}\_linger{INITIAL_LINGER_FRAMES}*{FINAL_LINGER_FRAMES}.gif
 
 ### Troubleshooting
 
 If you encounter font-related issues, ensure the specified font file exists or fall back to a system font.
 For any import errors, make sure all required libraries are installed.
 
-### License
+```
 
-[Specify your license here]
 ```
